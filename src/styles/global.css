@@ -1,41 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "EB Garamond", serif;
+    font-size: large;
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin: 0;
     padding: 0;
-  }
-  
+    background-image: 
+      url("https://res.cloudinary.com/dzphzgkbb/image/upload/v1745597270/IMG_20240531_120444_pwxdrs.jpg"),
+      linear-gradient(to bottom, rgb(89, 192, 158) , rgb(95, 44, 44));
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    /* background-color: hsla(0, 0%, 0%, 0.432); */
+}
   .section {
     padding: 2rem;
     width: 50%;
   }
   
   .section-title {
+    font-family: "JetBrains Mono", monospace;
     font-size: 2rem;
     margin-bottom: 1.5rem;
     text-align: center;
   }
   
   .entry-card {
-    border: 1px solid #ddd;
+    border: 3px solid #cec652;
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 8px;
-    background-color: #fdfdfd;
+    background-color: #0a2735a9;
   }
   
   .entry-title {
+    font-family: "JetBrains Mono", monospace;
     font-size: 1.25rem;
     font-weight: bold;
+    color: #e6e6e6;
+
   }
   
   .entry-location,
   .entry-dates {
     font-style: italic;
-    color: #555;
+    color: #e6e6e6;
   }
   
   .entry-description {
     margin-top: 0.5rem;
+    color: #e6e6e6;
+
   }
   
   .entry-link {
@@ -47,29 +62,32 @@ body {
   }
   /* NAV */
   .navbar {
-    margin: 30px;
+    margin: 80px ;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 3.5rem; /* Adjust the gap between items as needed */
+    max-width: 100%; /* Optional: Limit the width of the navbar */
   }
   /* NAV-buttons */
   .navbutton {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
-    font-weight: bold;
+    font-family: "JetBrains Mono", monospace;
+    font-weight:normal;
     color: #fff;
-    background-color: #535cac;
+    background-color: #535cac13;
     border: none;
     border-radius: 15px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.7s ease, transform 0.2s ease;
   }
 
   .navbutton:hover {
-    background-color: #535cac98;
-    color: #af5145;
+    background-color: #e67d7d;
     transform: scale(1.05);
   }
 
