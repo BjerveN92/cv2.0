@@ -6,6 +6,7 @@ body {
   
   .section {
     padding: 2rem;
+    width: 50%;
   }
   
   .section-title {
