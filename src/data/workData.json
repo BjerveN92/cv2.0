@@ -4,8 +4,8 @@
         "companyName" : "Eurocash AB",
         "location" : "Töcksfors",
         "date&year" : "Juni 2016 - April 2024",
-        "description" : ["Jobbat inom dagligvaruhandeln dom senaste 8 åren, mer specifikt med gränshandeln i en livsmedelsbutik.",
-                         "Gjort det mesta inom alla avdelningar med allt från kassan, varuplock, färskvaror/kött&chark," ,
+        "description" : ["Jobbat inom dagligvaruhandeln i 8 år, mer specifikt inom gränshandeln i en livsmedelsbutik.",
+                         "Gjort det mesta inom alla avdelningar med allt från kassan, kolonial, färskvaror/kött&chark, frukt&grönt" ,
                          "till att dom sista 1 & ½ åren varit frysansvarig."] 
     },
     {
@@ -30,7 +30,7 @@
         "id" : 4,
         "companyName" : "Dalslands Kanal AB",
         "location" : "Lennartsfors",
-        "date&year" : "sommar 2009, 2010, 2011",
-        "description" : "Sommarjobbade söndagar som slussbiträde på slussen i Lennartsfors."
+        "date&year" : ["sommar 2009","2010","2011"],
+        "description" : ["Sommarjobbade söndagar som slussbiträde på slussen i Lennartsfors."]
     }
 ]
