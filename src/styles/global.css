@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .entry-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+  }
+  
+  .entry-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .entry-location,
+  .entry-dates {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .entry-description {
+    margin-top: 0.5rem;
+  }
+  
+  .entry-link {
+    color: #007acc;
+    text-decoration: none;
+  }
+  .entry-link:hover {
+    text-decoration: underline;
+  }
+  /* NAV */
+  .navbar {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  /* NAV-buttons */
+  .navbutton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #535cac;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .navbutton:hover {
+    background-color: #535cac98;
+    color: #af5145;
+    transform: scale(1.05);
+  }
+
+  .navbutton:active {
+    background-color: #004d80;
+    transform: scale(0.95);
+  }
+  
