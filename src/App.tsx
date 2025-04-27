@@ -3,7 +3,7 @@ import { Home } from "./pages/home";
 import { Jobs } from "./pages/jobs";
 import { Education } from "./pages/education";
 import { Projects } from "./pages/projects";
-import { Contact } from "./pages/contact";
+import { ContactPage } from "./pages/contact";
 
 import { Navbar } from "./components/navbar";
 
@@ -19,7 +19,7 @@ function App() {
       <Route path="/jobs" element={<Jobs/>}/>
       <Route path="/education" element={<Education/>}/>
       <Route path="/projects" element={<Projects/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/contact" element={<ContactPage/>}/>
     </Routes>
     </>
   )
