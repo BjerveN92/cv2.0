@@ -95,4 +95,32 @@ body {
     background-color: #004d80;
     transform: scale(0.95);
   }
+  /* PROJECT-buttons */
+  .probutton {
+    border-style: inherit;
+    border-color: #cec652;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-family: "JetBrains Mono", monospace;
+    font-weight:normal;
+    color: #fff;
+    background-color: #535cac13;
+    border:lab(from color l a b);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease, transform 0.2s ease;
+  }
+
+  .probutton:hover {
+    background-color: #55a07465;
+    transform: scale(1.05);
+  }
+
+  .probutton:active {
+    background-color: #004d80;
+    transform: scale(0.95);
+  }
   
