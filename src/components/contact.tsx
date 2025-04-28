@@ -15,7 +15,7 @@ export const Contact = () => {
         const fetchData = async () => {
 
             try {
-                const response = await fetch("/src/data/contactData.json");
+                const response = await fetch("/data/contactData.json");
                 const data = await response.json();
                 setContactData(data);
             } catch (error) {

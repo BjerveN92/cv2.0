@@ -13,7 +13,7 @@ export const Joblist = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/src/data/workData.json");
+                const response = await fetch("data/workData.json");
                 const data = await response.json();
                 setWorkData(data);
             } catch (error) {

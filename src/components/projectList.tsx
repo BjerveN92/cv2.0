@@ -13,7 +13,7 @@ export const ProjectList = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/src/data/projectData.json");
+                const response = await fetch("data/projectData.json");
                 const data = await response.json();
                 setProjectData(data);
             } catch (error) {

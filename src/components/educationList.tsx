@@ -13,7 +13,7 @@ export const Educationlist = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/src/data/educationData.json");
+                const response = await fetch("data/educationData.json");
                 const data = await response.json();
                 setEducationData(data);
             } catch (error) {

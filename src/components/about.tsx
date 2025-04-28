@@ -6,7 +6,7 @@ export const About = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/src/data/aboutData.json");
+                const response = await fetch("/data/aboutData.json");
                 const data = await response.json();
                 setAboutData(data[0].about);
             } catch (error) {
