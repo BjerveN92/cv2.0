@@ -25,7 +25,7 @@ export const Educationlist = () => {
 
     return (
         <div className="section">
-            <h1 className="section-title">Education</h1>
+            <h1 className="section-title">Utbildningar</h1>
                 {educationData.map((edu) => (
                     <div key={edu.id} className="entry-card">
                         <h2 className="entry-title">{edu.name}</h2>
