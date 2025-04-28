@@ -18,7 +18,7 @@ export const About = () => {
 
     return (
         <div className="section">
-            <h1 className="section-title">HOME</h1>
+            <h1 className="section-title">Om mig</h1>
                 <div className="entry-card">
                     {aboutData.map((paragraph, index) => (
                     <p className="entry-description" key={index}>{paragraph}</p>

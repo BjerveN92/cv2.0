@@ -6,14 +6,20 @@ import { Projects } from "./pages/projects";
 import { ContactPage } from "./pages/contact";
 
 import { Navbar } from "./components/navbar";
+import { ProfilePicture } from "./components/profilePic";
+import { Title } from "./components/title";
 
 function App() {
 
 
   return (
     <>
+    <Title>
+    </Title>
     <Navbar>
     </Navbar>
+    <ProfilePicture>
+    </ProfilePicture>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/jobs" element={<Jobs/>}/>
