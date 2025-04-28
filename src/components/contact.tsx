@@ -32,7 +32,7 @@ export const Contact = () => {
             <div className="entry-card">
                 <p className="entry-description"><strong className="entry-title">Fullname:</strong> {contactData[0].Fullname}</p>
                 <p className="entry-description"><strong className="entry-title">Gmail:</strong> {contactData[0].Gmail}</p>
-                <p className="entry-description"><strong className="entry-title">Github:</strong> <a href={`https://${contactData[0].Github}`} target="_blank" rel="noopener noreferrer">{contactData[0].Github}</a></p>
+                <p className="entry-description"><strong className="entry-title">Github:</strong> <a href={contactData[0].Github} target="_blank" rel="noopener noreferrer">{contactData[0].Github}</a></p>
                 <p className="entry-description"><strong className="entry-title">Linkedin:</strong> <a href={contactData[0].Linkedin} target="_blank" rel="noopener noreferrer">{contactData[0].Linkedin}</a></p>
                 <p className="entry-description"><strong className="entry-title">Cellphone:</strong> {contactData[0].Cellphone}</p>
             </div>
