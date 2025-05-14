@@ -143,4 +143,36 @@ body {
     margin-top: 4rem;
     object-fit: cover; 
   }
+
+  /* CONTACT BUTTONS */
+
+.contact-button-github,
+.contact-button-linkedin {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: normal;
+  color: #fff;
+  background-color: #535cac28;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.7s ease, transform 0.2s ease;
+  margin-right: 1rem;
+}
+
+.contact-button-github:hover,
+.contact-button-linkedin:hover {
+  background-color: #641e6d;
+  transform: scale(1.05);
+}
+
+.contact-button-github:active,
+.contact-button-linkedin:active {
+  background-color: #640a70;
+  transform: scale(0.95);
+}
   
