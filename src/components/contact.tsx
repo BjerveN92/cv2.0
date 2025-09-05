@@ -26,45 +26,20 @@ export const Contact = () => {
     }, []);
 
     return (
-        <div className="section">
-            <h1 className="section-title">Kontakt</h1>
-            {contactData.length > 0 && (
-            <div className="entry-card">
-                <p className="entry-description"><strong className="entry-title">Namn:</strong> {contactData[0].Fullname}</p>
-                <p className="entry-description gmail-highlight">
-                    <strong className="entry-title">Gmail:</strong>
-                    <a 
-                        href={`mailto:${contactData[0].Gmail}`} 
-                        style={{ fontWeight: "bold" }}
-                        >
-                        {contactData[0].Gmail}
-                    </a>
-                </p>
-                <p className="entry-description">
-                    <strong className="entry-title">Github:</strong>
-                    <a
-                        href={contactData[0].Github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="contact-button-github"
-                    >
-                        BjerveN92
-                    </a>
-                </p>
-                <p className="entry-description">
-                    <strong className="entry-title">Linkedin:</strong>
-                    <a
-                        href={contactData[0].Linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="contact-button-linkedin"
-                    >
-                        Linkedin
-                    </a>
-                </p>
-                <p className="entry-description"><strong className="entry-title">Telefon:</strong> {contactData[0].Cellphone}</p>
-            </div>
-            )}
-        </div>
+  <div className="section">
+    {contactData.map((contact, idx) => (
+      <div key={idx} className="contact-icon-container">
+        <a href={contact.Linkedin} target="_blank" rel="noopener noreferrer">
+          <img className="contact-icon" src="/data/icons8-linkedin-480.png" alt="LinkedIn" role="button"/>
+        </a>
+        <a href={`mailto:${contact.Gmail}`}>
+          <img className="contact-icon" src="/data/icons8-gmail-logo-375.png" alt="Gmail"/>
+        </a>
+        <a href={contact.Github} target="_blank" rel="noopener noreferrer">
+          <img className="contact-icon" src="/data/icons8-github-250-white.png" alt="GitHub"/>
+        </a>
+      </div>
+    ))}
+  </div>
     );
 };
