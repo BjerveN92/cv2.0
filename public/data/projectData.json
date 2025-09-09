@@ -3,7 +3,7 @@
         "id": 1,
         "description" : "Mitt CV skapat i ramverket React, vilket du ser just nu!",
         "name" : "CV-2.0",
-        "url" : "https://github.com/BjerveN92/fruit4you"
+        "url" : "https://github.com/BjerveN92/cv2.0.git"
     },
     {
         "id": 2,
@@ -15,13 +15,13 @@
         "id": 3,
         "name" : "Calculator",
         "description" : "En kalkylator skapad med javascript, och en snygg CSS-styling",
-        "url" : "git@github.com:BjerveN92/Calculator.git"
+        "url" : "https://github.com/BjerveN92/Calculator"
     },
     {
         "id": 4,
         "name" : "EasyBlogg",
         "description" : "Ett simpelt blogg verktyg, nått av dom första övningarna jag gjorde på min pågående utbildning",
-        "url" : "git@github.com:BjerveN92/EasyBlogg.git"
+        "url" : "https://github.com/BjerveN92/EasyBlogg"
     },
     {
         "id": 5,
@@ -44,7 +44,7 @@
 
         {
         "id": 8,
-        "description" : "ett react-projekt som ska föreställa en e-handel där man kan köpa frukt, OBS!: under konstruktion! ",
+        "description" : "en enkel react-övning som ska föreställa en e-handel där man kan köpa frukt, OBS!: under konstruktion! ",
         "name" : "Fruit4You",
         "url" : "https://github.com/BjerveN92/fruit4you"
     }
